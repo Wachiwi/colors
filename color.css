@@ -1,0 +1,80 @@
+*{ margin: 0; padding: 0px; }
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+    font-size: 18px;
+}
+
+header{
+    height: 100px;
+    background-color: #3B5998;
+    color: white;
+}
+
+hgroup{
+    margin-left: 2%;
+}
+
+#title{
+    padding: 20px 0 10px;
+    font-size: 32px;
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 1%;
+}
+
+nav li a:hover{
+    color: #EDF0F5;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+section{
+    padding: 2%;
+    background-color: #EDF0F5;
+    height: 66%;
+
+}
+
+footer{
+    background-color: white;
+}
+
+div.color{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+    margin: 1px;
+}
+
+.hidden-color{
+    display: none;   
+}
+
+div#color-container{
+    border: none;
+    margin-top: 1%;
+    float:left;
+}
+
+
+code{
+    font-size: 14px;   
+}
+p{
+    margin: 15px 0;
+}
